@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.beautycalc.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:name="com.example.beautycalc.ui.job.JonFragment"
+        android:label="@string/menu_job"
+        tools:layout="@layout/fragment_job" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.beautycalc.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:name="com.example.beautycalc.ui.consumables.СonsumablesFragment"
+        android:label="@string/menu_consumables"
+        tools:layout="@layout/fragment_consumables" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.beautycalc.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:name="com.example.beautycalc.ui.serviceList.ServiceListFragment"
+        android:label="@string/menu_service_list"
+        tools:layout="@layout/fragment_servicelist" />
 </navigation>
